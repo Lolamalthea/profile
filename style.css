@@ -1,0 +1,74 @@
+/* Here goes your CSS */
+body {
+  background-color: #EBEBEB;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  color: #212121;
+}
+
+h1, h2, h3 {
+  font-family: 'Patrick Hand SC', cursive;
+  color: #335171;
+}
+
+a {
+  text-decoration: none;
+  color: #335171;
+}
+
+a:hover {
+  color: #AAC1D9;
+}
+
+td {
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+.btn-blue {
+  background-color: #AAC1D9;
+  font-weight: bolder;
+  color: #335171;
+  padding: 10px;
+  border: 20px;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  background-color: #7298C0;
+  color: white;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 5px;
+  width: 600px;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.img-radius {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 50px;
+  font-size: 20px;
+  line-height: 50px;
+}
